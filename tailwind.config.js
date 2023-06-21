@@ -1,9 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-   './saas-app-2/index.html',
+   './index.html',
   ],
   theme: {
+    container: {
+      center: true,
+      padding: '1rem',
+      screens: {  
+        lg: "1124px",
+        xl: "1124px",
+        "2xl": "1124px",
+    },
     colors: {
       "primary-01": "#49DEFF",
       "primary-02": "#4FFFDF",
@@ -21,5 +29,6 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+}
 }
 
