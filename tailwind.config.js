@@ -17,10 +17,9 @@ module.exports = {
       },
     },
     fontFamily: {
-      'jost': ['Jost', 'sans-serif'],
-      "open-sans": ["Open Sans", "sans-serif"],
+      "sans": ["Jost", "sans-serif"],
+      "serif": ["Open Sans", "serif"],
     },
-    
     container: {
       center: true,
       padding: '1rem',
