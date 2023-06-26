@@ -1,3 +1,8 @@
 #logo {
     font-size: 32px;
 }
+
+html{
+    scroll-behavior: smooth;
+    transition-delay: 0.5s;
+}
