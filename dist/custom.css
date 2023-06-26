@@ -6,3 +6,15 @@ html{
     scroll-behavior: smooth;
     transition-delay: 0.5s;
 }
+
+/* .core-features-pattern {
+    position: absolute;
+width: 1304.13px;
+height: 1310.12px;
+left: 1168.47px;
+top: 815.6px;
+
+background: conic-gradient(from 180deg at 50% 50%, rgba(73, 222, 255, 0.72) 0deg, rgba(79, 255, 223, 0.71) 360deg);
+mix-blend-mode: normal;
+transform: rotate(150deg);
+} */

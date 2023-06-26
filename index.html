@@ -18,16 +18,16 @@
       <a href="#"> <img src="images/Logo-P.png" alt="logo" class="p-1"></a>
       <div><a href="#" class="p-2 font-bold text-xl" id="logo">PrimeCRM</a>
       </div>
-        <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 capitalize text-base">
-          <li><a href="#">Solution</a>
+        <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 capitalize text-primary-03 text-xl font-semibold ">
+          <li class="hover:text-purple-700"><a href="#features">Feature</a>
           </li>
-          <li><a href="#">Industries</a>
+          <li class="hover:text-purple-700"><a href="#core-features">Management</a>
           </li>
-          <li><a href="#">Products</a>
+          <li class="hover:text-purple-700"><a href="#clients">Client</a>
           </li>
-          <li><a href="#">Resources</a>
+          <li class="hover:text-purple-700"><a href="#products">Sales</a>
           </li>
-          <li><a href="#">Pricing</a>
+          <li class="hover:text-purple-700"><a href="#">Blog</a>
           </li>
         <a href="#"><button class="bg-primary-03 text-white px-6 py-2 rounded border border-primary-03 hover:bg-white hover:text-primary-03">Login</button></a>
       </ul>
@@ -90,7 +90,7 @@
     </section>
 
     <!--features-->
-    <section id="features-section">
+    <section id="features">
       <div class="relative mt-40 ">
         <!--header-->
         <div class="container flex flex-grow flex-col items-center justify-center gap-4 p-4 w-3/5 ">
@@ -100,7 +100,7 @@
         
         <!--content-->
       <div class="flex flex-auto flex-row items-center px-40 my-8 gap-10">
-          <div class="justify-center items-start bg-secondary-03 p-8 rounded-lg shadow shadow-grey-100 w-1/3">
+          <div class="justify-center items-start bg-secondary-03 p-8 rounded-lg shadow shadow-grey-100 w-1/3 border border-secondary-03 hover:bg-white">
             <img src="images/features sub-content icon 1.png" alt="feature 1" class="h-12 w-12">
             <div>
               <h2 class="text-xl text-primary-03 py-4">Powerful Settings</h2>
@@ -110,7 +110,7 @@
             
           </div>
 
-          <div class="justify-center items-start bg-white p-8 rounded-lg shadow shadow-grey-100 w-1/3">
+          <div class="justify-center items-start bg-secondary-03 p-8 rounded-lg shadow shadow-grey-100 w-1/3 border border-secondary-03 hover:bg-white">
             <img src="images/features sub-content icon 2.png" alt="feature 2" class="h-12 w-12">
             <div>
               <h2 class="text-xl text-primary-03 py-4">User Friendly</h2>
@@ -118,7 +118,7 @@
             </div>
           </div>
 
-          <div class="justify-center items-start bg-secondary-03 p-8 rounded-lg shadow shadow-grey-100 w-1/3">
+          <div class="justify-center items-start bg-secondary-03 p-8 rounded-lg shadow shadow-grey-100 w-1/3 border border-secondary-03 hover:bg-white">
             <img src="images/features sub-content icon 3.png" alt="feature 3" class="h-12 w-12">
             <div>
               <h2 class="text-xl text-primary-03 py-4">Integrated Platform</h2>
@@ -160,6 +160,9 @@
 
         </div>
       </div>
+
+      <!-- pattern
+      <div class="core-features-pattern"></div> -->
       </div>
     </section>
     
@@ -189,7 +192,9 @@
             </div>
             
           </div>
-          <button class="bg-primary-03 text-white px-6 py-3 rounded text-sm">Get Started</button>
+          <a href="#newsletter">
+          <button class="bg-primary-03 text-white px-6 py-3 rounded text-sm hover:bg-white hover:text-primary-03 border border-primary-03">Get Started</button>
+          </a>
           <!--image-->
         
       </div>
@@ -201,7 +206,7 @@
     </section>
 
     <!--clients-->
-    <section id="section">
+    <section id="clients">
       <div class="relative mt-32">
         <!--header-->
         <div class="container flex flex-grow flex-col items-center justify-center gap-4 p-4 w-3/5">
@@ -236,7 +241,7 @@
     </section>
 
     <!--newsletter-->
-    <section>
+    <section id="newsletter">
       <div class="relative mt-32 bg-black mx-32 rounded-2xl h-100">
         <!--content-->
         <div class="container flex flex-row flex-1 gap-20 pt-12">
@@ -250,7 +255,7 @@
             <label for="signup-label" class="text-white capitalize">*Your business email address</label>
             <div class="flex flex-row flex-1 gap-4 py-2 m-2">
               <input id="signup-suggestion" class="text-white rounded p-2 text-xs" placeholder="Enter your email" />
-              <button class="bg-primary-01 text-primary-03 px-6 py-2 rounded text-sm">Try Now</button>
+              <button class="bg-primary-01 text-primary-03 px-6 py-2 rounded text-sm hover:bg-primary-03 hover:text-white">Try Now</button>
             </div>
           </div>
         </div>
@@ -263,7 +268,7 @@
     </section>
   
     <!--products-->
-    <section>
+    <section id="products">
       <div class="relative mt-28 flex flex-1 flex-col gap-8 items-center">
         <!--header-->
         <div class="container flex flex-grow flex-col items-center justify-center gap-8 p-4 w-3/5">
@@ -474,7 +479,7 @@
     </section>
 
     <!--pricing-->
-    <section>
+    <section id="pricing">
       <div class="relative my-24 ">
         
         <div class="container flex flex-1 flex-col">
@@ -584,9 +589,12 @@
           <div class="border-white mx-8">
             <ul class="flex flex-1 flex-row text-start gap-8 py-4 mx-8 text-white text-lg font-semibold ">
               <li class="w-1/5">Useful Links</li>
-              <li class="w-1/5 pl-1">Service</li>
+              <li class="w-1/5 pl-1">Pages</li>
               <li class="w-1/5 pl-2">Contact Us</li>
               <li class="w-2/5">Our Latest News</li>
+              <li class="text-end border border-secondary-03 rounded-full h-10 w-12 hover:bg-primary-01 hover:border-primary-01">
+                <a href="#"><img class="items-center justify-center py-4 pl-3" src="./images/bottom-to=top-arrow.png"></a>
+              </li>
             </ul>
           </div>
 
@@ -597,19 +605,19 @@
               <div class="flex flex-1 flex-col text-white text-start mx-8 gap-2 w-1/4">
                 <ul class="text-sm">
                   <li>
-                    <a href="#" class="footer-link">Solution</a>
+                    <a href="#features" class="hover:text-primary-01 text-white">Feature</a>
                   </li>
                   <li>
-                    <a href="#" class="footer-link">Industries</a>
+                    <a href="#clients" class="hover:text-primary-01 text-white">Client</a>
                   </li>
                   <li>
-                    <a href="#" class="footer-link">Products</a>
+                    <a href="#core-features" class="hover:text-primary-01 text-white">Management</a>
                   </li>
                   <li>
-                    <a href="#" class="footer-link">Resources</a>
+                    <a href="#products" class="hover:text-primary-01 text-white">Sales</a>
                   </li>
                   <li>
-                    <a href="#" class="footer-link">Pricing</a>
+                    <a href="#pricing" class="hover:text-primary-01 text-white">Pricing</a>
                   </li>
                 </ul>
               </div>
@@ -617,18 +625,18 @@
               <div class="flex flex-1 flex-col text-white text-start mx-8 gap-2 w-1/4">
                 <ul class="text-sm">
                   <li>
-                    <a href="#" class="footer-link">Sale</a></li>
+                    <a href="#" class="hover:text-primary-01 text-white">Style Guide</a></li>
                   <li>
-                    <a href="#" class="footer-link">Marketing</a>
+                    <a href="#" class="hover:text-primary-01 text-white">Changelog</a>
                   </li>
                   <li>
-                    <a href="#" class="footer-link">Real Estate</a>
+                    <a href="#" class="hover:text-primary-01 text-white">Licences</a>
                   </li>
                   <li>
-                    <a href="#" class="footer-link">Automative</a>
+                    <a href="#" class="hover:text-primary-01 text-white">Not Found</a>
                   </li>
                   <li>
-                    <a href="#" class="footer-link">Education</a>
+                    <a href="#" class="hover:text-primary-01 text-white">Protected</a>
                   </li>
                 </ul>
              </div>
@@ -647,12 +655,13 @@
             </div>
 
             <!--image-->
-            <div class="w-2/5 px-8">
-              <img src="images/footer image.png" alt="footer image" class="h-fit w-fit">
+            <div class="container w-2/5 px-8 relative">
+              <img src="images/footer image.png" alt="footer image" class="h-fit w-fit self-stretch">
+              <a href="#"><button class="bg-white text-primary-03 p-4 px-6 items-center justify-center rounded-lg hover:bg-primary-02 absolute bottom-12 left-44">Read Now</button></a>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center text-white text:md font-serif">Made with ♥️ by <a href="https://github.com/shaksmish"><div class=" p-1 hover:text-yellow-300"> Shalki</div></a></div>
+        <div class="flex items-center justify-center text-white text:md font-serif">Designed by <em><a href="https://webflow.com/templates/designers/victorflow">VictorFlow, </a></em> coded with ♥️ by <a href="https://github.com/shaksmish"><div class=" p-1 hover:text-yellow-300"> Shalki</div></a></div>
       </div>
     </section>
   
