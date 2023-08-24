@@ -1,1 +1,1 @@
-Building Saas App using Tailwind CSS
+Building a Saas App using HTML, Tailwind and custom CSS, and Javascript.
