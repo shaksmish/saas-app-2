@@ -18,8 +18,8 @@
 
 <!--header : div (a > nav with links > div for button)-->
 <header>
-  <div class="main-container flex gap-16 justify-between outline-dashed">
-    <div class="container"><a href="#"> <img src="images/logo.svg" loading="lazy" alt="nav-logo" class="p-2"></a></div>
+  <div class="main-container flex gap-16 justify-between ">
+    <div class="container"><a href="#"> <img src="images/logo.svg" loading="lazy" alt="nav-logo" class="p-2 h-16"></a></div>
       <nav class="flex flex-row justify-end items-center gap-10 capitalize text-primary-03 text-xl font-semibold">      
         <a href="#features" class="hover:text-purple-700 p-2">Feature</a>       
         <a href="#core-features" class="hover:text-purple-700 p-2">Management</a>     
@@ -38,48 +38,56 @@
   <!--heading banner-->  
   <section>
   <div class="main-container">
-    <div class="flex flex-1 flex-row gap-2 outline-dashed">
-
-    <div class="flex flex-col items-start divide-y gap-12 w-1/2 divide-gray-200 outline-dashed"">
+    <div class="flex flex-1 flex-row gap-2">
+    <div class="flex flex-col items-start divide-y gap-12 w-1/2 divide-gray-200">
       <!--content-->
-      <div class="flex flex-1 flex-col items-start gap-4 ">
-          <h2 class="font-bold text-5xl text-primary-03 drop-shadow-2xl flex-wrap leading-relaxed pr-8">The CRM Platform help to Keep your team focused</h2>
+      <div class="flex flex-1 flex-col items-start gap-1 px-2">
+          <h1 class="font-bold text-5xl text-primary-03 drop-shadow-2xl flex-wrap leading-normal pr-12">The CRM Platform help to Keep your team focused</h1>
           <p class="items-start text-lg font-light mb-4 text-secondary-01 capitalize leading-normal">Make Your Work Easier With An Ecosystem That Lets All Departments Work Properly Together.</p>
         
-        <div class="flex flex-1 flex-row gap-8 items-center justify-center">
+        <div class="flex flex-1 flex-row gap-2 items-center">
           <a href="#features-section">
-            <button class="bg-primary-03 text-white px-6 py-3 rounded text-sm border border-primary-03 hover:bg-white hover:text-primary-03">Get Started</button>
+            <button class="bg-primary-03 text-white px-2 h-16 w-48 py-3 rounded text-xl font-semibold border border-primary-03 hover:bg-white hover:text-primary-03">Get Started</button>
           </a>
           <a href="#core-features">
-        <button class="text-primary-03 hover:text-primary-01">How It Work</button>
+        <button class="text-primary-03 px-2 h-16 w-48 text-xl font-semibold hover:text-primary-01">How It Work</button>
         </a>
         </div>
       </div> 
-
-      <div class="flex flex-1 flex-col gap-8">
-      <img src="images/five star.png" alt="five-star" class="w-42 h-24">
-      <div class=""></div>
-      <img src="images/5 star rating.png" alt="five-star" class="w-20 h-24">
-      <div class="divide-y divide-gray-300"></div>
-    </div> 
+      <!--rating-->
+      <div class="flex flex-row gap-4">
+        <div>
+          <img src="/images/5 star rating.png" loading="lazy" alt="ratings" class="h-24">
+        </div>
+        <div class="flex flex-col gap-2">
+          <p>5 star awards</p>
+          <p>For customer services</p>
+          <div class="flex flex-row">
+            <img src="/images/star.svg" loading="lazy" alt="ratings">
+            <img src="/images/star.svg" loading="lazy" alt="ratings">
+            <img src="/images/star.svg" loading="lazy" alt="ratings">
+            <img src="/images/star.svg" loading="lazy" alt="ratings">
+            <img src="/images/star.svg" loading="lazy" alt="ratings">
+          </div>
+        </div>
+      </div> 
   </div>
 
   <!-- add image section-->
-  <div class="flex flex-1 flex-col w-1/2 outline-dashed">
+  <div class="flex flex-1 flex-col w-1/2">
     <img src="images/header banner.png" alt="header banner">
 
   </div>
 
   </div>
-
   </div>
-  
+  <img src="images/header background.png" loading="lazy" alt="header background" class="hero-background-shape" />  
   </section>
 
 
 <!--features-->
     <section id="features">
-      <div class="relative main-container outline-green-500 outline-dashed">
+      <div class="relative main-container">
         <!--header-->
         <div class="container flex flex-grow flex-col items-center justify-center gap-4 p-4 w-3/5 ">
           <h2 class="text-2xl text-primary-03 font-bold capitalize">Explore Premium Features</h2>
@@ -119,7 +127,7 @@
 
     <!--core features-->
     <section id="core-features">
-      <div class="relative main-container  outline-green-500 outline-dashed">
+      <div class="relative main-container ">
         <div class="container flex flex-row gap-10 mx-32 px-18 justify-center items-center">
         <!--image-->
         <div class="container grid grid-cols-5 gap-2 bg-secondary-03/50 rounded-2xl px-8 py-4 w-1/2 shadow shadow-grey-100">
@@ -150,13 +158,14 @@
 
       <!-- pattern
       <div class="core-features-pattern"></div> -->
+      <img src="/images/core-features-background.png" loading="lazy" width="611" alt="section background" class="core-features-background">
       </div>
     </section>
    
     
     <!--why choose us-->
     <section>
-      <div class="relative main-container outline-green-500 outline-dashed">
+      <div class="relative main-container outline-green-500">
         <div class="container flex flex-row gap-10 mx-36 px-18 justify-center items-center">
           <!--content-->
         <div class="w-1/2 gap-8"> 
@@ -189,14 +198,15 @@
       <div class="w-1/2">
         <img src="images/why-choose-us graph.png" alt="why choose us graph" class="bg-secondary-03/50 shadow shadow-grey-100">
       </div>
-      </div>  
+      </div>
+      <img src="./images/why-choose-us-background.png" loading="lazy" alt="why choose us background" class="why-choose-us-background" />  
     </div>
     </section>
 
 
     <!--clients-->
     <section id="clients">
-      <div class="relative main-container snap-y snap-mandatory overflow-scroll  outline-green-500 outline-dashed">
+      <div class="relative main-container snap-y snap-mandatory overflow-scroll ">
         <!--header-->
         <div class="container flex flex-grow flex-col items-center justify-center gap-4 p-4 w-3/5">
           <h2 class="text-2xl text-primary-03 font-bold capitalize">Trusted by more than 75 million users globally
@@ -232,7 +242,7 @@
 
     <!--newsletter-->
     <section id="newsletter">
-      <div class="relative main-container bg-black mx-32 rounded-2xl h-100  outline-green-500 outline-dashed">
+      <div class="relative main-container bg-black mx-32 rounded-2xl h-100 ">
         <!--content-->
         <div class="container flex flex-row flex-1 gap-20 pt-12">
           <div class="flex flex-col flex-1 p-4 m-4">
@@ -260,7 +270,7 @@
 
     <!--products-->
     <section id="products">
-      <div class="relative main-container flex flex-1 flex-col gap-8 items-center  outline-green-500 outline-dashed">
+      <div class="relative main-container flex flex-1 flex-col gap-8 items-center  ">
         <!--header-->
         <div class="container flex flex-grow flex-col items-center justify-center gap-8 p-4 w-3/5">
           <h2 class="text-2xl text-primary-03 font-bold capitalize">The Sales Automation Modules
@@ -270,7 +280,7 @@
         </div>
 
         <!--content-->
-        <div class="container flex flex-1 flex-row mx-24 p-8 gap-8 outline-gray-200 outline-dashed bg-secondary-03 rounded m-4 ">
+        <div class="container flex flex-1 flex-row mx-24 p-8 gap-8 outline-gray-200 bg-secondary-03 rounded m-4 ">
           
           <div class="flex flex-1 flex-col gap-8">
             <div class="bg-primary-03 text-white px-6 py-2 rounded text-start w-32">In Need</div>
@@ -358,7 +368,7 @@
 
     <!--How it works-->
     <section id="how-it-works">
-      <div class="relative main-container flex flex-1 flex-row gap-16 py-12 pl-4  outline-green-500 outline-dashed">
+      <div class="relative main-container flex flex-1 flex-row gap-16 py-12 pl-4  ">
         <!--content-->
         <div class="flex flex-1 flex-col gap-12 pr-8 w-2/5">
           <!--header-->
@@ -417,11 +427,11 @@
     
     <!--testimonials-->
     <section>
-      <div class="main-container p-0 m-0 bg-primary-03 min-w-full  outline-green-500 outline-dashed">
-        <div class="flex flex-1 flex-col gap-6 items-center justify-center py-12">
+      <div class="main-container p-0 m-0 bg-primary-03 min-w-full ">
+        <div class="flex flex-col gap-6 items-center justify-center py-12">
           <!--slider & image-->
-        <div class="flex flex-1 flex-col items-center justify-center p-8 m-4 mt-2 gap-4">
-            <img src="images/testimonial-client-1.png" alt="testimonial image" class="h-42 w-48">
+        <div class="flex flex-col items-center justify-center p-8 m-4 mt-2 gap-4">
+            <img src="images/testimonial-client-1.png" alt="testimonial image" class="h-42 w-48 rounded-full">
             <h2 class="text-white text-xl">Adam Chen</h2>
             <h3 class="text-white text-lg">Analyst</h3>
             <p class="text-xl">⭐⭐⭐⭐⭐</p>
@@ -462,7 +472,7 @@
 
     <!--pricing-->
     <section id="pricing">
-      <div class="relative main-container  outline-green-500 outline-dashed ">
+      <div class="relative main-container  ">
         
         <div class="container flex flex-1 flex-col">
           <!--header-->
@@ -474,8 +484,10 @@
           
 
           <!--pricing packages-->
+          
           <div class="flex flex-1 flex-row gap-4 items-center">
-            <!-- <div class="absolute left-0 z-1 opacity-0.5 h-64 bg-gradient-to-r from-primary-01 to-primary-02 mx-32 rounded-2xl"></div> -->
+            <div class="pricing-background p-12"></div>
+            
             <div class="flex flex-1 flex-col gap-4 p-10 w-1/2">
               <div class="flex flex-1 flex-row gap-2 max-h-16">
               <img src="images/pricing icon 1.png" alt="pricing icon 1" class="h-12 w-12">
@@ -540,7 +552,7 @@
 
     <!--footer-->
     <section>
-      <div class="main-container bg-primary-03 pt-2 px-2 h-108 min-w-full  outline-green-500 outline-dashed">
+      <div class="main-container bg-primary-03 pt-2 px-2 h-108 min-w-full  outline-green-500">
         <!--footer navbar-->
         <nav class="container flex items-center py-2 mt-2 sm:mt-12 text-white">
           <a href="#"> <img src="images/Logo-P.png" alt="logo" class="p-1"></a>
