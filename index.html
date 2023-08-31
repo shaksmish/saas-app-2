@@ -9,95 +9,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="./dist/output.css" rel="stylesheet">
     <link href="./dist/custom.css" rel="stylesheet">
-    <script type="text/javascript">
-      WebFont.load({
-          google: {
-              families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Jost:regular,500,600,700,800,900"]
-          }
-      });
-  </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!--header-->
-  <header>
-    <nav class="container flex items-center py-2 mt-2 sm:mt-12">
-      <a href="#"> <img src="images/Logo-P.png" alt="logo" class="p-1"></a>
-      <div><a href="#" class="p-2 font-bold text-xl" id="logo">PrimeCRM</a>
-      </div>
-        <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 capitalize text-primary-03 text-xl font-semibold ">
-          <li class="hover:text-purple-700"><a href="#features">Feature</a>
-          </li>
-          <li class="hover:text-purple-700"><a href="#core-features">Management</a>
-          </li>
-          <li class="hover:text-purple-700"><a href="#clients">Client</a>
-          </li>
-          <li class="hover:text-purple-700"><a href="#products">Sales</a>
-          </li>
-          <li class="hover:text-purple-700"><a href="#">Blog</a>
-          </li>
-        <a href="#"><button class="bg-primary-03 text-white px-6 py-2 rounded border border-primary-03 hover:bg-white hover:text-primary-03">Login</button></a>
-      </ul>
-      </nav>
-  </header>
 
-  <main>
-    <!--heading banner-->  
-    <section>
-    <div class="relative mb-12">
-      <div class="flex flex-1 flex-row gap-2 mx-24 ">
+<!--header : div (a > nav with links > div for button)-->
+<header>
+  <div class="main-container flex gap-16 justify-between outline-dashed">
+    <div class="container"><a href="#"> <img src="images/logo.svg" loading="lazy" alt="nav-logo" class="p-2"></a></div>
+      <nav class="flex flex-row justify-end items-center gap-10 capitalize text-primary-03 text-xl font-semibold">      
+        <a href="#features" class="hover:text-purple-700 p-2">Feature</a>       
+        <a href="#core-features" class="hover:text-purple-700 p-2">Management</a>     
+        <a href="#clients" class="hover:text-purple-700 p-2">Client</a>   
+        <a href="#products" class="hover:text-purple-700 p-2">Sales</a> 
+        <a href="#" class="hover:text-purple-700 p-2">Blog</a>       
+      <a href="#" ><button class="bg-primary-03 text-white h-16 w-40 min-h-full leading-3 px-12 py-4 rounded border border-primary-03 hover:bg-white hover:text-primary-03">Login</button></a>
+   
+    </nav>
+  </div>
+</header>
 
-      <div class="flex flex-col items-start mt-16 divide-y gap-12 w-1/2 divide-gray-200 pl-20 ">
-        <!--content-->
-        <div class="flex flex-1 flex-col items-start gap-4 ">
-            <h2 class="font-bold text-5xl text-primary-03 capitalize drop-shadow-2xl flex-wrap leading-relaxed pr-8">The CRM Platform Your Whole Business Will Love</h2>
-            <p class="items-start text-lg font-light mb-4 text-secondary-01 capitalize leading-normal">Make Your Work Easier With An Ecosystem That Lets All Departments Work Properly Together.</p>
-          
-          <div class="flex flex-1 flex-row gap-8 items-center justify-center">
-            <a href="#features-section">
-              <button class="bg-primary-03 text-white px-6 py-3 rounded text-sm border border-primary-03 hover:bg-white hover:text-primary-03">Get Started</button>
-            </a>
-            <a href="#core-features">
-          <button class="text-primary-03 hover:text-primary-01">How It Work</button>
-          </a>
-          </div>
-        </div> 
 
-        <div class="flex flex-1 flex-col gap-8">
-        <img src="images/five star.png" alt="five-star" class="w-42 h-24">
-        <div class=""></div>
-        <img src="images/5 star rating.png" alt="five-star" class="w-20 h-24">
-        <div class="divide-y divide-gray-300"></div>
-      </div> 
-    </div>
+<main>
 
-    <!-- add image section-->
-    <div class="flex flex-1 flex-col w-1/2 m-8">
-      <div class="flex flex-1 flex-row ">
-        <img src="images/header image 1.png" alt="bar graph" class="w-3/5 h-60">
-        <img src="images/header image 4.png" alt="business strategy bar graph" class="w-2/5 rotate-8 h-48">
-          
-      </div>
+  <!--heading banner-->  
+  <section>
+  <div class="main-container">
+    <div class="flex flex-1 flex-row gap-2 outline-dashed">
 
-      <div class="flex flex-1 flex-row px-12 ">
-        <img src="images/header image 3.png" alt="sine graph" class="w-1/2">
-        <img src="images/header image 2.png" alt="business amount earned this month" class="w-1/2">
+    <div class="flex flex-col items-start divide-y gap-12 w-1/2 divide-gray-200 outline-dashed"">
+      <!--content-->
+      <div class="flex flex-1 flex-col items-start gap-4 ">
+          <h2 class="font-bold text-5xl text-primary-03 drop-shadow-2xl flex-wrap leading-relaxed pr-8">The CRM Platform help to Keep your team focused</h2>
+          <p class="items-start text-lg font-light mb-4 text-secondary-01 capitalize leading-normal">Make Your Work Easier With An Ecosystem That Lets All Departments Work Properly Together.</p>
         
-      </div>
+        <div class="flex flex-1 flex-row gap-8 items-center justify-center">
+          <a href="#features-section">
+            <button class="bg-primary-03 text-white px-6 py-3 rounded text-sm border border-primary-03 hover:bg-white hover:text-primary-03">Get Started</button>
+          </a>
+          <a href="#core-features">
+        <button class="text-primary-03 hover:text-primary-01">How It Work</button>
+        </a>
+        </div>
+      </div> 
 
-      <div class="flex flex-1 flex-row ">
-        <img src="images/header image 5.png" alt="global statistics donut graph" class="justify-center items-center w-3/5">
-      </div>
+      <div class="flex flex-1 flex-col gap-8">
+      <img src="images/five star.png" alt="five-star" class="w-42 h-24">
+      <div class=""></div>
+      <img src="images/5 star rating.png" alt="five-star" class="w-20 h-24">
+      <div class="divide-y divide-gray-300"></div>
+    </div> 
+  </div>
 
-    </div>
+  <!-- add image section-->
+  <div class="flex flex-1 flex-col w-1/2 outline-dashed">
+    <img src="images/header banner.png" alt="header banner">
 
-    </div>
-    </div>
-    </section>
+  </div>
 
-    <!--features-->
+  </div>
+
+  </div>
+  
+  </section>
+
+
+<!--features-->
     <section id="features">
-      <div class="relative mt-40">
+      <div class="relative main-container outline-green-500 outline-dashed">
         <!--header-->
         <div class="container flex flex-grow flex-col items-center justify-center gap-4 p-4 w-3/5 ">
           <h2 class="text-2xl text-primary-03 font-bold capitalize">Explore Premium Features</h2>
@@ -107,7 +89,7 @@
         <!--content-->
       <div class="flex flex-auto flex-row items-center px-40 my-8 gap-10">
           <div class="justify-center items-start bg-secondary-03 p-8 rounded-lg shadow shadow-grey-100 w-1/3 border border-secondary-03 hover:bg-white">
-            <img src="images/features sub-content icon 1.png" alt="feature 1" class="h-12 w-12">
+            <img src="images/features sub-content icon 1.svg" loading="lazy" alt="feature 1" class="h-12 w-12">
             <div>
               <h2 class="text-xl text-primary-03 py-4">Powerful Settings</h2>
               <p class="capitalize font-thin text-sm">Trigger Personalized Emails Based On Customer Actions And Then Send Automated Follow-Ups.</p>
@@ -116,7 +98,7 @@
           </div>
 
           <div class="justify-center items-start bg-secondary-03 p-8 rounded-lg shadow shadow-grey-100 w-1/3 border border-secondary-03 hover:bg-white">
-            <img src="images/features sub-content icon 2.png" alt="feature 2" class="h-12 w-12">
+            <img src="images/features sub-content icon 2.svg" alt="feature 2" class="h-12 w-12">
             <div>
               <h2 class="text-xl text-primary-03 py-4">User Friendly</h2>
               <p class="capitalize font-thin text-sm">Send Super Personalized, Responsive, Beautiful And Fully Informative Emails In Just Click.</p>
@@ -124,7 +106,7 @@
           </div>
 
           <div class="justify-center items-start bg-secondary-03 p-8 rounded-lg shadow shadow-grey-100 w-1/3 border border-secondary-03 hover:bg-white">
-            <img src="images/features sub-content icon 3.png" alt="feature 3" class="h-12 w-12">
+            <img src="images/features sub-content icon 3.svg" alt="feature 3" class="h-12 w-12">
             <div>
               <h2 class="text-xl text-primary-03 py-4">Integrated Platform</h2>
               <p class="capitalize font-thin text-sm">Respond To Customer Behavior And Boost Calls To Action With Messages Directly Viewed On Your Site.</p>
@@ -134,9 +116,10 @@
       </div>
     </section>
 
+
     <!--core features-->
     <section id="core-features">
-      <div class="relative mt-40">
+      <div class="relative main-container  outline-green-500 outline-dashed">
         <div class="container flex flex-row gap-10 mx-32 px-18 justify-center items-center">
         <!--image-->
         <div class="container grid grid-cols-5 gap-2 bg-secondary-03/50 rounded-2xl px-8 py-4 w-1/2 shadow shadow-grey-100">
@@ -169,10 +152,11 @@
       <div class="core-features-pattern"></div> -->
       </div>
     </section>
+   
     
     <!--why choose us-->
     <section>
-      <div class="relative mt-32">
+      <div class="relative main-container outline-green-500 outline-dashed">
         <div class="container flex flex-row gap-10 mx-36 px-18 justify-center items-center">
           <!--content-->
         <div class="w-1/2 gap-8"> 
@@ -182,14 +166,14 @@
 
           <div class="flex flex-1 flex-row gap-4">
             <div class="flex flex-1 flex-col gap-2">
-              <img src="images/why-choose-us icon 1.png" class="w-28 h-12">
+              <img src="images/why-choose-us icon 1.svg" class="w-28 h-12">
               <div class="text-lg text-primary-03 font-semibold">CRM Security
               <p class="text-start text-secondary-01 capitalize font-light text-sm ">Work Together With Our Team To Brainstorm.</p>
               </div>
             </div>
 
             <div class="flex flex-1 flex-col gap-2 mb-10">
-              <img src="images/why-choose-us icon 2.png" class="w-14 h-10">
+              <img src="images/why-choose-us icon 2.svg" class="w-14 h-10">
               <div class="text-lg text-primary-03 font-semibold pt-2">Marketing Hub
               <p class="text-start text-secondary-01 capitalize font-light text-sm">Know Exactly How Your Email Will Look In Your Customer.</p>
               </div>
@@ -209,9 +193,10 @@
     </div>
     </section>
 
+
     <!--clients-->
     <section id="clients">
-      <div class="relative mt-32 snap-y snap-mandatory overflow-scroll">
+      <div class="relative main-container snap-y snap-mandatory overflow-scroll  outline-green-500 outline-dashed">
         <!--header-->
         <div class="container flex flex-grow flex-col items-center justify-center gap-4 p-4 w-3/5">
           <h2 class="text-2xl text-primary-03 font-bold capitalize">Trusted by more than 75 million users globally
@@ -222,31 +207,32 @@
         <!--content-->
         <div class="flex flex-1 flex-col p-6 m-8 gap-8" >
           <div class="flex flex-1 flex-row grow justify-center gap-8">
-            <img src="images/client logo 1.png" alt="client logo 1" class="w-46 h-10 ">
-            <img src="images/client logo 2.png" alt="client logo 2" class="w-46 h-10">
-            <img src="images/client logo 3.png" alt="client logo 3" class="w-46 h-10">
-            <img src="images/client logo 4.png" alt="client logo 4" class="w-46 h-10">
+            <img src="images/client logo 1.svg" alt="client logo 1" class="w-46 h-10 ">
+            <img src="images/client logo 2.svg" alt="client logo 2" class="w-46 h-10">
+            <img src="images/client logo 3.svg" alt="client logo 3" class="w-46 h-10">
+            <img src="images/client logo 4.svg" alt="client logo 4" class="w-46 h-10">
           </div>
           <div class="flex flex-1 flex-row justify-center gap-8 ">
-            <img src="images/client logo 5.png" alt="client logo 5" class="w-46 h-10">
-            <img src="images/client logo 6.png" alt="client logo 6" class="w-46 h-10">
-            <img src="images/client logo 7.png" alt="client logo 7" class="w-46 h-10">
-            <img src="images/client logo 8.png" alt="client logo 8" class="w-46 h-10">
-            <img src="images/client logo 9.png" alt="client logo 9" class="w-46 h-10">
+            <img src="images/client logo 5.svg" alt="client logo 5" class="w-46 h-10">
+            <img src="images/client logo 6.svg" alt="client logo 6" class="w-46 h-10">
+            <img src="images/client logo 7.svg" alt="client logo 7" class="w-46 h-10">
+            <img src="images/client logo 8.svg" alt="client logo 8" class="w-46 h-10">
+            <img src="images/client logo 9.svg" alt="client logo 9" class="w-46 h-10">
           </div>
           <div class="flex flex-1 flex-row justify-center gap-8">
-            <img src="images/client logo 10.png" alt="client logo 10" class="w-46 h-10">
-            <img src="images/client logo 11.png" alt="client logo 11" class="w-46 h-10">
-            <img src="images/client logo 12.png" alt="client logo 12" class="w-46 h-10">
-            <img src="images/client logo 13.png" alt="client logo 13" class="w-46 h-10">
+            <img src="images/client logo 10.svg" alt="client logo 10" class="w-46 h-10">
+            <img src="images/client logo 11.svg" alt="client logo 11" class="w-46 h-10">
+            <img src="images/client logo 12.svg" alt="client logo 12" class="w-46 h-10">
+            <img src="images/client logo 13.svg" alt="client logo 13" class="w-46 h-10">
           </div>
         </div>
       </div>
     </section>
 
+
     <!--newsletter-->
     <section id="newsletter">
-      <div class="relative mt-32 bg-black mx-32 rounded-2xl h-100">
+      <div class="relative main-container bg-black mx-32 rounded-2xl h-100  outline-green-500 outline-dashed">
         <!--content-->
         <div class="container flex flex-row flex-1 gap-20 pt-12">
           <div class="flex flex-col flex-1 p-4 m-4">
@@ -271,9 +257,10 @@
       </div>
     </section>
   
+
     <!--products-->
     <section id="products">
-      <div class="relative mt-28 flex flex-1 flex-col gap-8 items-center">
+      <div class="relative main-container flex flex-1 flex-col gap-8 items-center  outline-green-500 outline-dashed">
         <!--header-->
         <div class="container flex flex-grow flex-col items-center justify-center gap-8 p-4 w-3/5">
           <h2 class="text-2xl text-primary-03 font-bold capitalize">The Sales Automation Modules
@@ -288,21 +275,21 @@
           <div class="flex flex-1 flex-col gap-8">
             <div class="bg-primary-03 text-white px-6 py-2 rounded text-start w-32">In Need</div>
               <div class="flex flex-row gap-4 pr-14">
-                <img src="images/product icon 1.png" alt="product-icon 1" class="h-12 w-12 items-center my-4">
+                <img src="images/product icon 1.svg" alt="product-icon 1" class="h-12 w-12 items-center my-4">
                 <div class="text-lg text-primary-03 font-semibold">Sales
                 <p class="text-start text-secondary-01 capitalize font-light text-sm">Grow Your Agency By Becoming Integrated Clients.</p>
                 </div>
               </div>
           
               <div class="flex flex-row gap-4 pr-14">
-                <img src="images/product icon 2.png" alt="product-icon 2" class="h-12 w-12 items-center my-4">
+                <img src="images/product icon 2.svg" alt="product-icon 2" class="h-12 w-12 items-center my-4">
                 <div class="text-lg text-primary-03 font-semibold">Marketing
                 <p class="text-start text-secondary-01 capitalize font-light text-sm">All This Information Is Visible In User Profiles.</p>
                 </div>
                 </div>
 
                 <div class="flex flex-row gap-4 pr-14">
-                  <img src="images/product icon 3.png" alt="product-icon 3" class="h-12 w-12 items-center my-4">
+                  <img src="images/product icon 3.svg" alt="product-icon 3" class="h-12 w-12 items-center my-4">
                   <div class="text-lg text-primary-03 font-semibold">Service
                   <p class="text-start text-secondary-01 capitalize font-light text-sm">See Who Opens, Clicks Unsubscribes From Emails.</p>
                   </div>
@@ -313,21 +300,21 @@
           <div class="flex flex-1 flex-col gap-8">
             <div class="bg-primary-03 text-white px-6 py-2 rounded w-32">Industry</div>
               <div class="flex flex-row gap-4 pr-12">
-                <img src="images/product icon 4.png" alt="product-icon 4" class="h-12 w-12 items-center my-4">
+                <img src="images/product icon 4.svg" alt="product-icon 4" class="h-12 w-12 items-center my-4">
                 <div class="text-lg text-primary-03 font-semibold">Automative
                 <p class="text-start text-secondary-01 capitalize font-light text-sm">Manage Your Agents Permissions Decide Access</p>
                 </div>
               </div>
           
               <div class="flex flex-row gap-4 pr-12">
-                <img src="images/product icon 5.png" alt="product-icon 5" class="h-12 w-12 items-center my-4">
+                <img src="images/product icon 5.svg" alt="product-icon 5" class="h-12 w-12 items-center my-4">
                 <div class="text-lg text-primary-03 font-semibold">Real Estate
                 <p class="text-start text-secondary-01 capitalize font-light text-sm">New Visitors Who Send A Message Will Be Asked Email.</p>
                 </div>
                 </div>
 
                 <div class="flex flex-row gap-4 pr-12">
-                  <img src="images/product icon 6.png" alt="product-icon 6" class="h-12 w-12 items-center my-4">
+                  <img src="images/product icon 6.svg" alt="product-icon 6" class="h-12 w-12 items-center my-4">
                   <div class="text-lg text-primary-03 font-semibold">Education
                   <p class="text-start text-secondary-01 capitalize font-light text-sm">Move From Unpredictable Project Work To Retainer.</p>
                   </div>
@@ -337,28 +324,28 @@
           <div class="flex flex-1 flex-col gap-8">
             <div class="bg-primary-03 text-white px-6 py-2 rounded w-32">Solution</div>
               <div class="flex flex-row gap-4 pr-12">
-                <img src="images/product icon 7.png" alt="product-icon 7" class="h-12 w-12 items-center my-4">
+                <img src="images/product icon 7.svg" alt="product-icon 7" class="h-12 w-12 items-center my-4">
                 <div class="text-lg text-primary-03 font-semibold">Project Management
                 <p class="text-start text-secondary-01 capitalize font-light text-sm">The User Has Responded To Any Of Your Chat.</p>
                 </div>
               </div>
           
               <div class="flex flex-row gap-4 pr-12">
-                <img src="images/product icon 8.png" alt="product-icon 8" class="h-12 w-12 items-center my-4">
+                <img src="images/product icon 8.svg" alt="product-icon 8" class="h-12 w-12 items-center my-4">
                 <div class="text-lg text-primary-03 font-semibold">Delivery Management
                 <p class="text-start text-secondary-01 capitalize font-light text-sm">Trigger Personalized Emails Based On Customer Actions.</p>
                 </div>
               </div>
 
                 <div class="flex flex-row gap-4 pr-12">
-                  <img src="images/product icon 9.png" alt="product-icon 9" class="h-12 w-12 items-center my-4">
+                  <img src="images/product icon 9.svg" alt="product-icon 9" class="h-12 w-12 items-center my-4">
                   <div class="text-lg text-primary-03 font-semibold">Loyalty Management
                   <p class="text-start text-secondary-01 capitalize font-light text-sm">Sales Force Automation Software For Productivity.</p>
                   </div>
                 </div>
 
                 <div class="flex flex-row gap-4 pr-12">
-                  <img src="images/product icon 10.png" alt="product-icon 10" class="h-12 w-12 items-center my-4">
+                  <img src="images/product icon 10.svg" alt="product-icon 10" class="h-12 w-12 items-center my-4">
                   <div class="text-lg text-primary-03 font-semibold">Professional Management
                   <p class="text-start text-secondary-01 capitalize font-light text-sm">Everything You Need To Be Everywhere Your Customers.</p>
                   </div>  
@@ -368,9 +355,10 @@
       </div>
     </section>
 
+
     <!--How it works-->
     <section id="how-it-works">
-      <div class="relative mt-32 container flex flex-1 flex-row gap-16 py-12 pl-4">
+      <div class="relative main-container flex flex-1 flex-row gap-16 py-12 pl-4  outline-green-500 outline-dashed">
         <!--content-->
         <div class="flex flex-1 flex-col gap-12 pr-8 w-2/5">
           <!--header-->
@@ -425,10 +413,11 @@
 
       </div>
     </section>
-   
+  
+    
     <!--testimonials-->
     <section>
-      <div class="container p-0 m-0 bg-primary-03 min-w-full">
+      <div class="main-container p-0 m-0 bg-primary-03 min-w-full  outline-green-500 outline-dashed">
         <div class="flex flex-1 flex-col gap-6 items-center justify-center py-12">
           <!--slider & image-->
         <div class="flex flex-1 flex-col items-center justify-center p-8 m-4 mt-2 gap-4">
@@ -473,7 +462,7 @@
 
     <!--pricing-->
     <section id="pricing">
-      <div class="relative my-24 ">
+      <div class="relative main-container  outline-green-500 outline-dashed ">
         
         <div class="container flex flex-1 flex-col">
           <!--header-->
@@ -551,7 +540,7 @@
 
     <!--footer-->
     <section>
-      <div class="container m-0 bg-primary-03 pt-2 px-2 h-108 min-w-full">
+      <div class="main-container bg-primary-03 pt-2 px-2 h-108 min-w-full  outline-green-500 outline-dashed">
         <!--footer navbar-->
         <nav class="container flex items-center py-2 mt-2 sm:mt-12 text-white">
           <a href="#"> <img src="images/Logo-P.png" alt="logo" class="p-1"></a>
@@ -649,7 +638,7 @@
 
             <!--image-->
             <div class="container w-2/5 px-8 relative">
-              <img src="images/footer image.png" alt="footer image" class="h-fit w-fit overflow-clip hover:scale-105 transition duration-200 cursor-pointer">
+              <img src="images/footer image.jpeg" alt="footer image" class="h-fit w-fit overflow-clip hover:scale-105 transition duration-200 cursor-pointer">
               <a href="#"><button class="bg-white text-primary-03 p-4 px-6 items-center justify-center rounded-lg hover:bg-primary-02 absolute bottom-12 left-44 ">Read Now</button></a>
             </div>
           </div>
@@ -658,10 +647,9 @@
       </div>
     </section>
   
-  
-  </main>  
+ 
 
 
-
+</main>
 </body>
 </html>
