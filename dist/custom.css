@@ -7,6 +7,92 @@ html{
     transition-delay: 0.5s;
     font-family: 'Jost', sans-serif;
 }
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #4e4e4e;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+} 
+  
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Jost, sans-serif;
+  color: #303030;
+  font-size: 48px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: Jost, sans-serif;
+  color: #303030;
+  font-size: 40px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Jost, sans-serif;
+  color: #303030;
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+h4 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: Jost, sans-serif;
+  color: #303030;
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+h5 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Jost, sans-serif;
+  color: #303030;
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+h6 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Jost, sans-serif;
+  color: #303030;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.main-font{
+  font-family: 'Jost', sans-serif;
+}
 
 .main-container {
     max-width: 100%;
@@ -14,6 +100,7 @@ html{
     padding-left: 100px;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .hero-background-shape {
@@ -49,13 +136,54 @@ html{
   .pricing-background {
     position: absolute;
     z-index: -1;
-    left: 0%;
+    left: 10.5%;
     top: 25%;
     right: 0%;
     bottom: auto;
-    width: 100%;
+    width: 79%;
     height: 500px;
     border-radius: 30px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(73, 222, 255, 0.7)), to(rgba(79, 255, 223, 0.72)));
     background-image: linear-gradient(90deg, rgba(73, 222, 255, 0.7), rgba(79, 255, 223, 0.72));
   }
+
+  .hero-decorative-one {
+    position: absolute;
+    left: 4%;
+    top: 16%;
+    right: auto;
+    bottom: auto;
+    
+  }
+
+  .rating-logo {
+    max-height: 166px;
+    width: 100%;
+  }
+
+  .pointer {
+    height: 19px;
+    width: 31px;
+    max-height: 20px;
+    max-width: 31px;
+    margin-top: 30px;
+    border: 1px solid #1eb1e5;
+    border-radius: 100%;
+    background-color: #47cfff;
+    position: relative;
+    top: 8%;
+}
+
+.newsletter-background {
+  position: absolute;
+  left: 7%;
+  top: 3%;
+  right: 8%;
+  bottom: 0%;
+  width: 1264px;
+  z-index: -1;
+}
+
+.testimonial-font {
+  font-size: 25px;
+}
