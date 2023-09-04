@@ -18,15 +18,15 @@
 
 <!--header : div (a > nav with links > div for button)-->
 <header>
-  <div class="main-container flex gap-16 justify-between ">
+  <div class="main-container flex gap-16 justify-between pt-2 ">
     <div class="container"><a href="#"> <img src="images/logo.svg" loading="lazy" alt="nav-logo" class="p-2 h-16"></a></div>
-      <nav class="flex flex-row justify-end items-center gap-10 capitalize text-primary-03 text-xl font-semibold">      
+      <nav class="flex flex-row justify-end items-center gap-8 capitalize text-primary-03 text-xl font-semibold main-font">      
         <a href="#features" class="hover:text-purple-700 p-2">Feature</a>       
         <a href="#core-features" class="hover:text-purple-700 p-2">Management</a>     
         <a href="#clients" class="hover:text-purple-700 p-2">Client</a>   
         <a href="#products" class="hover:text-purple-700 p-2">Sales</a> 
         <a href="#" class="hover:text-purple-700 p-2">Blog</a>       
-      <a href="#" ><button class="bg-primary-03 text-white h-16 w-40 min-h-full leading-3 px-12 py-4 rounded border border-primary-03 hover:bg-white hover:text-primary-03">Login</button></a>
+      <a href="#" ><button class="bg-primary-03 text-white h-16 w-40 min-h-full main-font leading-3 px-12 py-4 rounded border border-primary-03 hover:bg-white hover:text-primary-03">Login</button></a>
    
     </nav>
   </div>
@@ -38,31 +38,32 @@
   <!--heading banner-->  
   <section>
   <div class="main-container">
-    <div class="flex flex-1 flex-row gap-2">
-    <div class="flex flex-col items-start divide-y gap-12 w-1/2 divide-gray-200">
+    <div class="flex gap-2 ">
+    <div class="flex flex-col items-start divide-y gap-12 w-1/2 divide-gray-200 ">
       <!--content-->
-      <div class="flex flex-1 flex-col items-start gap-1 px-2">
-          <h1 class="font-bold text-5xl text-primary-03 drop-shadow-2xl flex-wrap leading-normal pr-12">The CRM Platform help to Keep your team focused</h1>
-          <p class="items-start text-lg font-light mb-4 text-secondary-01 capitalize leading-normal">Make Your Work Easier With An Ecosystem That Lets All Departments Work Properly Together.</p>
+      <div class="flex flex-col items-start gap-1 px-2">
+          <h1 class="font-semibold text-primary-03 drop-shadow-2xl flex-wrap pr-12 ">The CRM Platform help to Keep your team focused</h1>
+          <p class="items-start tracking-wider font-light my-2 p-2 text-secondary-01 capitalize">Make Your Work Easier With An Ecosystem That Lets All Departments Work Properly Together.</p>
         
-        <div class="flex flex-1 flex-row gap-2 items-center">
+        <div class="flex flex-row gap-2 my-4 items-center">
           <a href="#features-section">
-            <button class="bg-primary-03 text-white px-2 h-16 w-48 py-3 rounded text-xl font-semibold border border-primary-03 hover:bg-white hover:text-primary-03">Get Started</button>
+            <button class="bg-primary-03 text-white px-2 h-16 w-48 py-3 rounded text-xl main-font font-semibold border border-primary-03 hover:bg-white hover:text-primary-03">Get Started</button>
           </a>
           <a href="#core-features">
-        <button class="text-primary-03 px-2 h-16 w-48 text-xl font-semibold hover:text-primary-01">How It Work</button>
+        <button class="text-primary-03 px-2 h-16 w-48 text-xl main-font font-semibold hover:text-primary-01">How It Work</button>
         </a>
         </div>
       </div> 
+      
       <!--rating-->
-      <div class="flex flex-row gap-4">
-        <div>
-          <img src="/images/5 star rating.png" loading="lazy" alt="ratings" class="h-24">
+      <div class="flex flex-row gap-4 p-8">
+        <div class="inline-flex pl-8 divide-y-2 divide-gray-200">
+          <img src="/images/5 star rating.png" loading="lazy" alt="ratings" class="rating-logo">
         </div>
-        <div class="flex flex-col gap-2">
-          <p>5 star awards</p>
-          <p>For customer services</p>
-          <div class="flex flex-row">
+        <div class="flex flex-col gap-1">
+          <p class="text-3xl font-semibold capitalize leading-relaxed tracking-widest px-2">5 star awards</p>
+          <p class="text-xl capitalize text-secondary-01 px-2 tracking-wider">For customer services</p>
+          <div class="flex flex-row px-2 gap-1">
             <img src="/images/star.svg" loading="lazy" alt="ratings">
             <img src="/images/star.svg" loading="lazy" alt="ratings">
             <img src="/images/star.svg" loading="lazy" alt="ratings">
@@ -74,50 +75,55 @@
   </div>
 
   <!-- add image section-->
-  <div class="flex flex-1 flex-col w-1/2">
-    <img src="images/header banner.png" alt="header banner">
+  <div class="flex flex-1 flex-col w-1/2 ">
+    <img src="images/header banner.png" alt="header banner" class="max-h-full">
 
   </div>
 
   </div>
   </div>
-  <img src="images/header background.png" loading="lazy" alt="header background" class="hero-background-shape" />  
+
+  <!--decorative and background images-->
+  <div>
+    <img src="/images/decorative-01.svg" loading="lazy" alt="" class="hero-decorative-one transform translate-x-0 translate-y-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-238.021 skew-x-0 skew-y-0">
+  </div>
+  <img src="images/header background.png" loading="lazy" alt="header background" class="hero-background-shape" />
   </section>
 
 
 <!--features-->
     <section id="features">
-      <div class="relative main-container">
+      <div class="relative main-container ">
         <!--header-->
-        <div class="container flex flex-grow flex-col items-center justify-center gap-4 p-4 w-3/5 ">
-          <h2 class="text-2xl text-primary-03 font-bold capitalize">Explore Premium Features</h2>
-          <p class="items-center justify-center text-center text-secondary-01 capitalize font-light">A Full-Stack Marketing Automation Software For All Your Communication Messaging And Relationships With Your Beloved Customers.</p>
+        <div class="flex flex-col items-center px-8 justify-center gap-2 p-4  ">
+          <h2 class="text-primary-03 font-semibold capitalize ">Explore Premium Features</h2>
+          <p class="justify-center text-center text-secondary-01 capitalize  ">A Full-Stack Marketing Automation Software For All Your Communication Messaging And Relationships With Your Beloved Customers.</p>
         </div>
         
         <!--content-->
-      <div class="flex flex-auto flex-row items-center px-40 my-8 gap-10">
+      <div class="flex flex-row items-center gap-6 m-4">
           <div class="justify-center items-start bg-secondary-03 p-8 rounded-lg shadow shadow-grey-100 w-1/3 border border-secondary-03 hover:bg-white">
-            <img src="images/features sub-content icon 1.svg" loading="lazy" alt="feature 1" class="h-12 w-12">
+            <img src="images/features sub-content icon 1.svg" loading="lazy" alt="feature 1" class="h-16 w-100%">
             <div>
-              <h2 class="text-xl text-primary-03 py-4">Powerful Settings</h2>
-              <p class="capitalize font-thin text-sm">Trigger Personalized Emails Based On Customer Actions And Then Send Automated Follow-Ups.</p>
+              <h3 class="text-primary-03 py-1">Powerful Settings</h3>
+              <p class="capitalize">Trigger Personalized Emails Based On Customer Actions And Then Send Automated Follow-Ups.</p>
             </div>
             
           </div>
 
           <div class="justify-center items-start bg-secondary-03 p-8 rounded-lg shadow shadow-grey-100 w-1/3 border border-secondary-03 hover:bg-white">
-            <img src="images/features sub-content icon 2.svg" alt="feature 2" class="h-12 w-12">
+            <img src="images/features sub-content icon 2.svg" alt="feature 2" class="h-16 w-100%">
             <div>
-              <h2 class="text-xl text-primary-03 py-4">User Friendly</h2>
-              <p class="capitalize font-thin text-sm">Send Super Personalized, Responsive, Beautiful And Fully Informative Emails In Just Click.</p>
+              <h3 class="text-primary-03 py-1">User Friendly</h3>
+              <p class="capitalize">Send Super Personalized, Responsive, Beautiful And Fully Informative Emails In Just Click.</p>
             </div>
           </div>
 
           <div class="justify-center items-start bg-secondary-03 p-8 rounded-lg shadow shadow-grey-100 w-1/3 border border-secondary-03 hover:bg-white">
-            <img src="images/features sub-content icon 3.svg" alt="feature 3" class="h-12 w-12">
+            <img src="images/features sub-content icon 3.svg" alt="feature 3" class="h-16 w-100%">
             <div>
-              <h2 class="text-xl text-primary-03 py-4">Integrated Platform</h2>
-              <p class="capitalize font-thin text-sm">Respond To Customer Behavior And Boost Calls To Action With Messages Directly Viewed On Your Site.</p>
+              <h3 class="text-primary-03 py-1">Integrated Platform</h3>
+              <p class="capitalize">Respond To Customer Behavior And Boost Calls To Action With Messages Directly Viewed On Your Site.</p>
             </div>
           </div>
          </div>
@@ -128,36 +134,40 @@
     <!--core features-->
     <section id="core-features">
       <div class="relative main-container ">
-        <div class="container flex flex-row gap-10 mx-32 px-18 justify-center items-center">
+
+        <div class="flex flex-row gap-2 justify-center items-center ">
         <!--image-->
-        <div class="container grid grid-cols-5 gap-2 bg-secondary-03/50 rounded-2xl px-8 py-4 w-1/2 shadow shadow-grey-100">
-          <img src="images/core-features analytics 1.png" alt="core features image" class="col-span-5">
-          <img src="images/core-features analytics 2.png" alt="core features image" class="col-span-3">
-          <img src="images/core-features analytics 3.png" alt="core features image" class="col-span-2">
-          <img src="images/core-features analytics 4.png" alt="core features image" class="col-span-5">
+        <div class="bg-secondary-03/50 rounded-2xl px-8 py-4 w-1/2 shadow shadow-grey-100 ">
+          <img src="/images/core-features analytics.png" alt="core features image" class="">
         </div>
         
         <!--content-->
-        <div class="container flex flex-1 flex-col w-1/2 px-8 py-4 gap-4">
-          <h2 class="text-2xl text-primary-03 font-bold capitalize">Start Growing With Us And Simplify Management
-          </h2>
-          <p class="items-center justify-center text-start text-secondary-01 capitalize font-light mb-6">With Tools To Make Every Part Of Your Process More Human And A Support Team Excited To Help You, Getting Started With Inbound Has Never Been Easier. All Come Together In One Place.</p>
-          <div>
-            <ul class="flex flex-col gap-10 text-lg text-primary-03 list-disc pl-2">
-              <li class="font-semibold ">Knowledge Base
-                <p class="items-center justify-center text-start text-secondary-01 capitalize font-light text-sm">Guide Helps Companies Increase Customer & Agent Satisfaction, Also Reducing Support Costs.</p>
-              </li>
-              <li class="font-semibold">Team Email
-                <p class="items-center justify-center text-start text-secondary-01 capitalize font-light text-sm">Group Your Contacts By Location, Age, And Almost Any Behavior With Advanced Segmentation Tools.</p>
-              </li>
-            </ul>
-          </div>
+        <div class="flex flex-col w-1/2 px-8 py-4 ">
+            <h2 class="text-primary-03 capitalize">Start Growing With Us And Simplify Management</h2>
+            <p class="items-center justify-center text-start text-secondary-01 capitalize mb-6">With Tools To Make Every Part Of Your Process More Human And A Support Team Excited To Help You, Getting Started With Inbound Has Never Been Easier. All Come Together In One Place.</p>
+          
+          <div class="flex flex-col gap-4 rounded-xl ">  
+            <div class="flex flex-row gap-1 text-primary-03 rounded-2xl">
+              <div class="pointer inline-block"></div>
+              <div class="items-start justify-start text-start px-2">
+                <h3>Knowledge Base</h3>
+                <p class="text-secondary-01 capitalize">Guide Helps Companies Increase Customer & Agent Satisfaction, Also Reducing Support Costs.</p>              
+              </div>
+            </div>
+            <div class="flex flex-row gap-1 text-primary-03">
+              <div class="pointer inline-block"></div>
+              <div class="items-center justify-center text-start px-2">
+                <h3>Team Email</h3>
+                <p class="text-secondary-01 capitalize">Group Your Contacts By Location, Age, And Almost Any Behavior With Advanced Segmentation Tools.</p>
+              </div>
+            </div>
+        </div>
 
         </div>
+
       </div>
 
-      <!-- pattern
-      <div class="core-features-pattern"></div> -->
+      <!-- pattern-->
       <img src="/images/core-features-background.png" loading="lazy" width="611" alt="section background" class="core-features-background">
       </div>
     </section>
@@ -165,37 +175,43 @@
     
     <!--why choose us-->
     <section>
-      <div class="relative main-container outline-green-500">
-        <div class="container flex flex-row gap-10 mx-36 px-18 justify-center items-center">
+      <div class="main-container ">
+        <div class="flex flex-row gap-10 px-18 justify-center items-center">
           <!--content-->
-        <div class="w-1/2 gap-8"> 
-          <h2 class="text-2xl text-primary-03 font-bold capitalize my-4">Easy To Create Visual Project Timelines To Help Your Team
+        <div class="w-1/2 gap-8 px-4"> 
+          <h2 class="text-primary-03 capitalize my-4">Easy To Create Visual Project Timelines To Help Your Team
           </h2>
-          <p class="text-start text-secondary-01 capitalize font-light mb-8">Your Company Will Have A Single Point Of Contact Who Is Familiar, Not Only With Our Platform, But Also Your Account And Business To Consult With As Needed.</p>
+          <p class="text-start text-secondary-01 capitalize mb-8">Your Company Will Have A Single Point Of Contact Who Is Familiar, Not Only With Our Platform, But Also Your Account And Business To Consult With As Needed.</p>
 
-          <div class="flex flex-1 flex-row gap-4">
-            <div class="flex flex-1 flex-col gap-2">
-              <img src="images/why-choose-us icon 1.svg" class="w-28 h-12">
-              <div class="text-lg text-primary-03 font-semibold">CRM Security
-              <p class="text-start text-secondary-01 capitalize font-light text-sm ">Work Together With Our Team To Brainstorm.</p>
+          <div class="flex flex-row gap-4 mb-4">
+            <div class="flex flex-col gap-2 w-1/2">
+              <div>
+                <img src="images/why-choose-us icon 1.svg">
+              </div>
+              <div>
+               <h3> CRM Security</h3>
+              <p class="text-start text-secondary-01 capitalize">Work Together With Our Team To Brainstorm.</p>
               </div>
             </div>
 
-            <div class="flex flex-1 flex-col gap-2 mb-10">
-              <img src="images/why-choose-us icon 2.svg" class="w-14 h-10">
-              <div class="text-lg text-primary-03 font-semibold pt-2">Marketing Hub
-              <p class="text-start text-secondary-01 capitalize font-light text-sm">Know Exactly How Your Email Will Look In Your Customer.</p>
+            <div class="flex flex-col gap-2 w-1/2">
+              <div>
+                <img src="images/why-choose-us icon 2.svg">
+              </div>
+              <div>
+                <h3>Marketing Hub</h3>
+              <p class="text-start text-secondary-01 capitalize">Know Exactly How Your Email Will Look In Your Customer.</p>
               </div>
             </div>
             
           </div>
           <a href="#newsletter">
-          <button class="bg-primary-03 text-white px-6 py-3 rounded text-sm hover:bg-white hover:text-primary-03 border border-primary-03">Get Started</button>
+          <button class="bg-primary-03 text-white main-font h-16 w-48 mt-2 px-6 py-3 rounded hover:bg-white hover:text-primary-03 border border-primary-03">Get Started</button>
           </a>
           <!--image-->
         
       </div>
-      <div class="w-1/2">
+      <div class="w-1/2 ">
         <img src="images/why-choose-us graph.png" alt="why choose us graph" class="bg-secondary-03/50 shadow shadow-grey-100">
       </div>
       </div>
@@ -206,197 +222,216 @@
 
     <!--clients-->
     <section id="clients">
-      <div class="relative main-container snap-y snap-mandatory overflow-scroll ">
-        <!--header-->
-        <div class="container flex flex-grow flex-col items-center justify-center gap-4 p-4 w-3/5">
-          <h2 class="text-2xl text-primary-03 font-bold capitalize">Trusted by more than 75 million users globally
-          </h2>
-          <p class="items-center justify-center text-center text-secondary-01 capitalize font-light px-36">The World’s Most Forward-Thinking Companies Are Growing Their Business With PrimeCRM. With Over 1,500 Apps And A Robust API.</p>
-        </div>
-
-        <!--content-->
-        <div class="flex flex-1 flex-col p-6 m-8 gap-8" >
-          <div class="flex flex-1 flex-row grow justify-center gap-8">
-            <img src="images/client logo 1.svg" alt="client logo 1" class="w-46 h-10 ">
-            <img src="images/client logo 2.svg" alt="client logo 2" class="w-46 h-10">
-            <img src="images/client logo 3.svg" alt="client logo 3" class="w-46 h-10">
-            <img src="images/client logo 4.svg" alt="client logo 4" class="w-46 h-10">
-          </div>
-          <div class="flex flex-1 flex-row justify-center gap-8 ">
-            <img src="images/client logo 5.svg" alt="client logo 5" class="w-46 h-10">
-            <img src="images/client logo 6.svg" alt="client logo 6" class="w-46 h-10">
-            <img src="images/client logo 7.svg" alt="client logo 7" class="w-46 h-10">
-            <img src="images/client logo 8.svg" alt="client logo 8" class="w-46 h-10">
-            <img src="images/client logo 9.svg" alt="client logo 9" class="w-46 h-10">
-          </div>
-          <div class="flex flex-1 flex-row justify-center gap-8">
-            <img src="images/client logo 10.svg" alt="client logo 10" class="w-46 h-10">
-            <img src="images/client logo 11.svg" alt="client logo 11" class="w-46 h-10">
-            <img src="images/client logo 12.svg" alt="client logo 12" class="w-46 h-10">
-            <img src="images/client logo 13.svg" alt="client logo 13" class="w-46 h-10">
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!--newsletter-->
-    <section id="newsletter">
-      <div class="relative main-container bg-black mx-32 rounded-2xl h-100 ">
-        <!--content-->
-        <div class="container flex flex-row flex-1 gap-20 pt-12">
-          <div class="flex flex-col flex-1 p-4 m-4">
-            <h2 class="text-2xl text-white font-bold capitalize p-2 m-2 text-start ">Sell | Serve | Automate
+      <div class="main-container snap-y snap-mandatory overflow-scroll  ">
+        <div class="flex flex-col gap-4 ">
+          <!--header-->
+          <div class="flex flex-col items-center justify-center gap-4 ">
+            <h2 class=" text-primary-03 capitalize justify-center text-center ">Trusted by more than 75 million users globally
             </h2>
-            <p class="text-start text-white capitalize font-light text-sm pr-32 pl-4">It Provides All Type Of Guides To The Customer About How To Use The Tool Perfectly From Starting.</p>
+            <p class="items-center justify-center text-center text-secondary-01 capitalize ">The World’s Most Forward-Thinking Companies Are Growing Their Business With PrimeCRM. With Over 1,500 Apps And A Robust API.</p>
           </div>
-        
-          <div class="flex flex-col flex-1 pt-10 px-6 m-4">
-            <label for="signup-label" class="text-white capitalize">*Your business email address</label>
-            <div class="flex flex-row flex-1 gap-4 py-2 m-2">
-              <input id="signup-suggestion" class="text-white rounded p-2 text-xs" placeholder="Enter your email" />
-              <button class="bg-primary-01 text-primary-03 px-6 py-2 rounded text-sm hover:bg-primary-03 hover:text-white">Try Now</button>
+
+          <!--content-->
+          <div class="flex flex-col p-6 gap-8 " >
+            <div class="flex flex-row grow justify-center gap-8">
+              <img src="images/client logo 1.svg" alt="client logo 1" class="w-46 h-10 ">
+              <img src="images/client logo 2.svg" alt="client logo 2" class="w-46 h-10">
+              <img src="images/client logo 3.svg" alt="client logo 3" class="w-46 h-10">
+              <img src="images/client logo 4.svg" alt="client logo 4" class="w-46 h-10">
+            </div>
+            <div class="flex flex-row justify-center gap-8 ">
+              <img src="images/client logo 5.svg" alt="client logo 5" class="w-46 h-10">
+              <img src="images/client logo 6.svg" alt="client logo 6" class="w-46 h-10">
+              <img src="images/client logo 7.svg" alt="client logo 7" class="w-46 h-10">
+              <img src="images/client logo 8.svg" alt="client logo 8" class="w-46 h-10">
+              <img src="images/client logo 9.svg" alt="client logo 9" class="w-46 h-10">
+            </div>
+            <div class="flex flex-row justify-center gap-8 ">
+              <img src="images/client logo 10.svg" alt="client logo 10" class="w-46 h-10">
+              <img src="images/client logo 11.svg" alt="client logo 11" class="w-46 h-10">
+              <img src="images/client logo 12.svg" alt="client logo 12" class="w-46 h-10">
+              <img src="images/client logo 13.svg" alt="client logo 13" class="w-46 h-10">
             </div>
           </div>
-        </div>
-        <!--image-->
-        <div class="relative bottom-30 left-32 right-18">
-          <img src="images/newsletter image.png" class="max-w-5xl max-h-2xl"> 
-        </div>
 
-      </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--newsletter-->
+      <section id="newsletter">
+        <div class="main-container relative ">
+          <div class="flex flex-col p-8 rounded-2xl  outline-white">
+          
+          <!--content-->
+          <div class="flex flex-row p-8  outline-white">
+            <div class="flex flex-col w-1/2 p-4  outline-white">
+              <h2 class="text-white capitalize text-start">Sell | Serve | Automate
+              </h2>
+              <p class="text-start text-white capitalize">It Provides All Type Of Guides To The Customer About How To Use The Tool Perfectly From Starting.</p>
+            </div>
+          
+            <div class="flex flex-col w-1/2 gap-2 justify-center  outline-white">
+              <div class="flex p-4  outline-white "><label for="signup-label" class="text-white capitalize main-font">*Your business email address</label></div>
+              <div class="flex flex-row gap-2 p-4  outline-white">
+                <input id="signup-suggestion" class="text-white rounded main-font p-4 py-4"  placeholder="Email" />
+                <button class="bg-primary-01 text-primary-03  main-font font-semibold p-4 py-4 px-4 rounded hover:bg-primary-03 hover:text-white">Try Now</button>
+              </div>
+            </div>
+          </div>
+
+        <!--image-->
+        <div class="bottom-30 p-8 ">
+          <img src="images/newsletter image.png" class="items-center justify-center"> 
+        </div>
+        <img src="/images/newsletter background.png" class="newsletter-background" alt="section background">
+    </div>
+    
+    </div>
     </section>
   
 
     <!--products-->
     <section id="products">
-      <div class="relative main-container flex flex-1 flex-col gap-8 items-center  ">
+      <div class="main-container ">
+        <div class="flex flex-col gap-8 items-center ">
         <!--header-->
-        <div class="container flex flex-grow flex-col items-center justify-center gap-8 p-4 w-3/5">
-          <h2 class="text-2xl text-primary-03 font-bold capitalize">The Sales Automation Modules
+        <div class="flex flex-grow flex-col items-center justify-center gap-8 p-4 w-3/5 ">
+          <h2 class="text-primary-03 capitalize ">The Sales Automation Modules
           </h2>
-        <p class="items-center justify-center text-center text-secondary-01 capitalize font-light">Find And Engage The Right Customers. Help Them Learn What They Want To Know About Your Products As They Begin Their Journey.
+        <p class="items-center justify-center text-center text-secondary-01 capitalize ">Find And Engage The Right Customers. Help Them Learn What They Want To Know About Your Products As They Begin Their Journey.
         </p>
         </div>
 
         <!--content-->
-        <div class="container flex flex-1 flex-row mx-24 p-8 gap-8 outline-gray-200 bg-secondary-03 rounded m-4 ">
+        <div class="container flex flex-row outline-gray-200 bg-secondary-03 main-font rounded-2xl ">
           
-          <div class="flex flex-1 flex-col gap-8">
-            <div class="bg-primary-03 text-white px-6 py-2 rounded text-start w-32">In Need</div>
-              <div class="flex flex-row gap-4 pr-14">
-                <img src="images/product icon 1.svg" alt="product-icon 1" class="h-12 w-12 items-center my-4">
+          <div class="flex flex-col flex-wrap gap-8 w-1/3 p-2 ">
+            <div class="bg-primary-03 text-white px-6 py-2 rounded text-start w-32 text-xl">In Need</div>
+              <div class="flex flex-row gap-4 p-2 ">
+                <img src="images/product icon 1.svg" alt="product-icon 1" class="h-8 w-8 items-center my-4">
                 <div class="text-lg text-primary-03 font-semibold">Sales
-                <p class="text-start text-secondary-01 capitalize font-light text-sm">Grow Your Agency By Becoming Integrated Clients.</p>
+                <p class="text-start text-secondary-01 capitalize">Grow Your Agency By Becoming Integrated Clients.</p>
                 </div>
               </div>
           
-              <div class="flex flex-row gap-4 pr-14">
-                <img src="images/product icon 2.svg" alt="product-icon 2" class="h-12 w-12 items-center my-4">
+              <div class="flex flex-row gap-4 ">
+                <img src="images/product icon 2.svg" alt="product-icon 2" class="h-8 w-8 items-center my-4">
                 <div class="text-lg text-primary-03 font-semibold">Marketing
-                <p class="text-start text-secondary-01 capitalize font-light text-sm">All This Information Is Visible In User Profiles.</p>
+                <p class="text-start text-secondary-01 capitalize">All This Information Is Visible In User Profiles.</p>
                 </div>
-                </div>
+              </div>
 
-                <div class="flex flex-row gap-4 pr-14">
-                  <img src="images/product icon 3.svg" alt="product-icon 3" class="h-12 w-12 items-center my-4">
+              <div class="flex flex-row gap-4 ">
+                  <img src="images/product icon 3.svg" alt="product-icon 3" class="h-8 w-8 items-center my-4">
                   <div class="text-lg text-primary-03 font-semibold">Service
-                  <p class="text-start text-secondary-01 capitalize font-light text-sm">See Who Opens, Clicks Unsubscribes From Emails.</p>
+                  <p class="text-start text-secondary-01 capitalize">See Who Opens, Clicks Unsubscribes From Emails.</p>
                   </div>
-                  </div>
+              </div>
        
           </div>
 
-          <div class="flex flex-1 flex-col gap-8">
-            <div class="bg-primary-03 text-white px-6 py-2 rounded w-32">Industry</div>
-              <div class="flex flex-row gap-4 pr-12">
-                <img src="images/product icon 4.svg" alt="product-icon 4" class="h-12 w-12 items-center my-4">
-                <div class="text-lg text-primary-03 font-semibold">Automative
-                <p class="text-start text-secondary-01 capitalize font-light text-sm">Manage Your Agents Permissions Decide Access</p>
+          <div class="flex flex-col gap-8 w-1/3 p-2 ">
+            <div class="bg-primary-03 text-white px-6 py-2 rounded w-32 text-xl">Industry</div>
+              <div class="flex flex-row gap-4 p-2 ">
+                <img src="images/product icon 4.svg" alt="product-icon 4" class="h-8 w-8 items-center my-4">
+                <div class="text-lg text-primary-03 font-semibold ">Automative
+                <p class="text-start text-secondary-01 capitalize">Manage Your Agents Permissions Decide Access</p>
                 </div>
               </div>
           
-              <div class="flex flex-row gap-4 pr-12">
-                <img src="images/product icon 5.svg" alt="product-icon 5" class="h-12 w-12 items-center my-4">
+              <div class="flex flex-row gap-4 p-2 ">
+                <img src="images/product icon 5.svg" alt="product-icon 5" class="h-8 w-8 items-center my-4">
                 <div class="text-lg text-primary-03 font-semibold">Real Estate
-                <p class="text-start text-secondary-01 capitalize font-light text-sm">New Visitors Who Send A Message Will Be Asked Email.</p>
+                <p class="text-start text-secondary-01 capitalize">New Visitors Who Send A Message Will Be Asked Email.</p>
                 </div>
                 </div>
 
-                <div class="flex flex-row gap-4 pr-12">
-                  <img src="images/product icon 6.svg" alt="product-icon 6" class="h-12 w-12 items-center my-4">
+                <div class="flex flex-row gap-4 ">
+                  <img src="images/product icon 6.svg" alt="product-icon 6" class="h-8 w-8 items-center my-4">
                   <div class="text-lg text-primary-03 font-semibold">Education
-                  <p class="text-start text-secondary-01 capitalize font-light text-sm">Move From Unpredictable Project Work To Retainer.</p>
+                  <p class="text-start text-secondary-01 capitalize ">Move From Unpredictable Project Work To Retainer.</p>
                   </div>
                   </div>
           </div>
 
-          <div class="flex flex-1 flex-col gap-8">
-            <div class="bg-primary-03 text-white px-6 py-2 rounded w-32">Solution</div>
-              <div class="flex flex-row gap-4 pr-12">
-                <img src="images/product icon 7.svg" alt="product-icon 7" class="h-12 w-12 items-center my-4">
+          <div class="flex flex-col gap-8 w-1/3 p-2 ">
+            <div class="bg-primary-03 text-white px-6 py-2 rounded w-32  text-xl">Solution</div>
+              <div class="flex flex-row gap-4 p-2 ">
+                <img src="images/product icon 7.svg" alt="product-icon 7" class="h-8 w-8 items-center my-4">
                 <div class="text-lg text-primary-03 font-semibold">Project Management
-                <p class="text-start text-secondary-01 capitalize font-light text-sm">The User Has Responded To Any Of Your Chat.</p>
+                <p class="text-start text-secondary-01 capitalize ">The User Has Responded To Any Of Your Chat.</p>
                 </div>
               </div>
           
-              <div class="flex flex-row gap-4 pr-12">
-                <img src="images/product icon 8.svg" alt="product-icon 8" class="h-12 w-12 items-center my-4">
+              <div class="flex flex-row gap-4 p-2 ">
+                <img src="images/product icon 8.svg" alt="product-icon 8" class="h-8 w-8 items-center my-4">
                 <div class="text-lg text-primary-03 font-semibold">Delivery Management
-                <p class="text-start text-secondary-01 capitalize font-light text-sm">Trigger Personalized Emails Based On Customer Actions.</p>
+                <p class="text-start text-secondary-01 capitalize">Trigger Personalized Emails Based On Customer Actions.</p>
                 </div>
               </div>
 
-                <div class="flex flex-row gap-4 pr-12">
-                  <img src="images/product icon 9.svg" alt="product-icon 9" class="h-12 w-12 items-center my-4">
+                <div class="flex flex-row gap-4 pr-12 ">
+                  <img src="images/product icon 9.svg" alt="product-icon 9" class="h-8 w-8 items-center my-4">
                   <div class="text-lg text-primary-03 font-semibold">Loyalty Management
-                  <p class="text-start text-secondary-01 capitalize font-light text-sm">Sales Force Automation Software For Productivity.</p>
+                  <p class="text-start text-secondary-01 capitalize">Sales Force Automation Software For Productivity.</p>
                   </div>
                 </div>
 
-                <div class="flex flex-row gap-4 pr-12">
-                  <img src="images/product icon 10.svg" alt="product-icon 10" class="h-12 w-12 items-center my-4">
+                <div class="flex flex-row gap-4 pr-12 ">
+                  <img src="images/product icon 10.svg" alt="product-icon 10" class="h-8 w-8 items-center my-4">
                   <div class="text-lg text-primary-03 font-semibold">Professional Management
-                  <p class="text-start text-secondary-01 capitalize font-light text-sm">Everything You Need To Be Everywhere Your Customers.</p>
+                  <p class="text-start text-secondary-01 capitalize">Everything You Need To Be Everywhere Your Customers.</p>
                   </div>  
                 </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
 
 
     <!--How it works-->
     <section id="how-it-works">
-      <div class="relative main-container flex flex-1 flex-row gap-16 py-12 pl-4  ">
+      <div class="main-container ">
+        <div class="flex flex-row ">
+      
         <!--content-->
-        <div class="flex flex-1 flex-col gap-12 pr-8 w-2/5">
+        <div class="flex flex-col gap-8 w-2/5 mr-4 ">
           <!--header-->
-          <div class="">
-            <h2 class="text-2xl text-primary-03 font-bold capitalize ">How It Works</h2>
-            <p class="text-start text-secondary-01 font-light mt-2">Supporting this methodology is a full platform of software for marketing, sales, service.
+          <div class="flex flex-col gap-2 p-4">
+            <h2 class=" text-primary-03 capitalize ">How It Works</h2>
+            <p class="text-start text-secondary-01 mt-2 ">Supporting this methodology is a full platform of software for marketing, sales, service.
             </p>
           </div>
           
-          <div class="flex flex-1 flex-col gap-4">
-            <div class="flex flex-1 flex-row gap-4">
-              <img src="images/01.png" alt="icon 1" class="h-4 w-8">
-              <div class="">Download Our App
-              <p class="text-start text-secondary-01 font-light">It’s All About Showing Your Prospects They Can Trust You To Help Them Solve Their Problems.</p>
+          <div class="flex flex-col gap-4 ">
+            <div class="flex flex-row gap-4 ">
+              <div class="text-primary-01 text-2xl font-semibold h-4 w-8 ">01</div>
+              <div class="">
+                <h3>Download Our App</h3>
+              <p class="text-start text-secondary-01">It’s All About Showing Your Prospects They Can Trust You To Help Them Solve Their Problems.</p>
               </div>
             </div>
 
-            <div class="flex flex-1 flex-row gap-4">
-              <img src="images/02.png" alt="icon 2" class="h-4 w-8">
-              <div class="">List Your Company Details
-              <p class="text-start text-secondary-01 font-light">It’s All About Showing Your Prospects They Can Trust You To Help Them Solve Their Problems.</p>
+            <div class="flex flex-row gap-4">
+              <div class="flex flex-row gap-4 ">
+                <div class="text-primary-01 text-2xl font-semibold h-4 w-8 ">02</div>
+              <div class="">
+                <h3>List Your Company Details</h3>
+              <p class="text-start text-secondary-01">It’s All About Showing Your Prospects They Can Trust You To Help Them Solve Their Problems.</p>
+              </div>
               </div>
             </div>
 
-            <div class="flex flex-1 flex-row gap-4">
-              <img src="images/03.png" alt="icon 3" class="h-4 w-8">
-              <div class="">Enjoy Your Business
-              <p class="text-start text-secondary-01 font-light">Knowledge Base Articles May Not Always Providing The Information To Someone.</p>
+            <div class="flex flex-row gap-4">
+              <div class="flex flex-row gap-4 ">
+                <div class="text-primary-01 text-2xl font-semibold h-4 w-8 py-4 ">03</div>
+              <div class="">
+                <h3>Enjoy Your Business</h3>
+              <p class="text-start text-secondary-01">Knowledge Base Articles May Not Always Providing The Information To Someone.</p>
+              </div>
               </div>
             </div>
 
@@ -405,22 +440,23 @@
         </div>
 
         <!--app store-->
-        <div class="container flex flex-col gap-4 bg-secondary-03 pt-16 pr-32 w-3/5 mr-0 rounded-xl">
-          <div class="flex flex-1 flex-col text-start pl-8 gap-4">
-          <h2 class="text-2xl text-primary-03 font-bold capitalize pr-12">The Perfect CRM Software: <br> Boost Your Field Sales Team’s Efficiency</h2>
-          <div class="text-[#3BA3C8] pr-12">Depending on the Sales Approaches Standardize a Marketing Process</div>
-          <p class="">Get to know who they are and what they're interested in to build a meaningful platform relationships.</p>
+        <div class="flex flex-col gap-4 w-3/5 bg-secondary-03 rounded-xl p-8 ">
+          <div class="flex flex-col text-start gap-4 ">
+            <h3 class=" text-primary-03 capitalize font-semibold pr-12 ">The Perfect CRM Software: <br> Boost Your Field Sales Team’s Efficiency</h3>
+            <p class="text-[#3BA3C8] pr-12 capitalise ">Depending on the Sales Approaches Standardize a Marketing Process</p>
+            <p class="">Get to know who they are and what they're interested in to build a meaningful platform relationships.</p>
           </div>
           
-          <div class="flex flex-1 flex-row gap-8 pr-8 justify-center items-center">
+          <div class="flex flex-row gap-8 justify-center flex-start ">
             <a href="https://www.apple.com/in/app-store/"><img src="images/apple store icon.png" alt="apple logo" class="w-48 h-16"> </a> 
             <a href="https://play.google.com/store/apps"><img src="images/google play icon.png" alt="apple logo" class="w-48 h-16"></a> 
           </div>
 
           <!--image-->
-        <img class="absolute right-4 bottom-12 h-96 w-52" src="images/how-it-works mobile screen.png" alt="mobile screen">
+        <!-- <img class="absolute right-4 bottom-12 h-96 w-52" src="images/how-it-works mobile screen.png" alt="mobile screen"> -->
         </div>
 
+      </div>
       </div>
     </section>
   
@@ -428,40 +464,46 @@
     <!--testimonials-->
     <section>
       <div class="main-container p-0 m-0 bg-primary-03 min-w-full ">
-        <div class="flex flex-col gap-6 items-center justify-center py-12">
+        <div class="flex flex-col gap-8 items-center justify-center py-12 ">
           <!--slider & image-->
-        <div class="flex flex-col items-center justify-center p-8 m-4 mt-2 gap-4">
+        <div class="flex flex-col items-center justify-center p-8 m-4 mt-2 gap-2 ">
             <img src="images/testimonial-client-1.png" alt="testimonial image" class="h-42 w-48 rounded-full">
-            <h2 class="text-white text-xl">Adam Chen</h2>
-            <h3 class="text-white text-lg">Analyst</h3>
-            <p class="text-xl">⭐⭐⭐⭐⭐</p>
-            <div class="text-white text-lg px-96 text-center justify-center">"PrimeCRM Is The Most Intuitive And Modern Live Chat We Found. Live Chat Obviously Made <span class=" text-primary-01">Our Users Happier</span> And Our Service Department More Efficient 😇 </div>
+            <h2 class="text-white ">Adam Chen</h2>
+            <p class="text-white ">Analyst</p>
+            <div class="flex flex-row px-2 gap-4">
+              <img src="/images/star.svg" loading="lazy" alt="ratings">
+              <img src="/images/star.svg" loading="lazy" alt="ratings">
+              <img src="/images/star.svg" loading="lazy" alt="ratings">
+              <img src="/images/star.svg" loading="lazy" alt="ratings">
+              <img src="/images/star.svg" loading="lazy" alt="ratings">
+            </div>
+            <p class="text-white w-3/5 text-center justify-center  testimonial-font py-4 ">"PrimeCRM Is The Most Intuitive And Modern Live Chat We Found. Live Chat Obviously Made <span class=" text-primary-01">Our Users Happier</span> And Our Service Department More Efficient 😇 </p>
         </div>
 
           <!--stats-->
           <div class="flex flex-grow flex-row gap-24 ">
             <div class="flex flex-grow flex-col gap-1 p-4 m-4">
-              <p class="text-white font-semibold text-2xl tracking-wider">4.9<span class="text-primary-01">/</span>5 
-              </p>
-              <p class="text-white font-normal text-sm"> User Rating</p>
+              <h2 class="text-white tracking-wider">4.9<span class="text-primary-01">/</span>5 
+              </h2>
+              <p class="text-white font-normal"> User Rating</p>
             </div>
 
             <div class="flex flex-grow flex-col gap-1 p-4 m-4">
-              <p class="text-white font-semibold text-2xl tracking-wider">350<span class="text-yellow-500">K</span>+ 
-              </p>
-              <p class="text-white font-normal text-sm"> Customers</p>
+              <h2 class="text-white font-semibold tracking-wider">350<span class="text-yellow-500">K</span>+ 
+              </h2>
+              <p class="text-white font-normal"> Customers</p>
             </div>
 
             <div class="flex flex-grow flex-col gap-1 p-4 m-4">
-              <p class="text-white font-semibold text-2xl tracking-wider">99<span class="text-green-400">+</span> 
-              </p>
-              <p class="text-white font-normal text-sm"> Team Members</p>
+              <h2 class="text-white font-semibold tracking-wider">99<span class="text-green-400">+</span> 
+              </h2>
+              <p class="text-white font-normal"> Team Members</p>
             </div>
 
             <div class="flex flex-grow flex-col gap-1 p-4 m-4">
-              <p class="text-white font-semibold text-2xl tracking-wider">41<span class="text-red-500">M</span> 
-              </p>
-              <p class="text-white font-normal text-sm">Current Users</p>
+              <h2 class="text-white font-semibold tracking-wider">41<span class="text-red-500">M</span> 
+              </h2>
+              <p class="text-white font-normal">Current Users</p>
             </div>
 
           </div>
@@ -472,74 +514,125 @@
 
     <!--pricing-->
     <section id="pricing">
-      <div class="relative main-container  ">
-        
-        <div class="container flex flex-1 flex-col">
+      <div class="relative main-container  ">        
+        <div class="container flex flex-col  ">
           <!--header-->
-          <div class="container flex flex-grow flex-col items-center justify-center gap-4 p-4 w-3/5">
-            <h2 class="text-2xl text-primary-03 font-bold capitalize">Pick A Plan That Affordable For You. Grow Faster With Us.
+          <div class="container flex flex-grow flex-col items-center justify-center gap-4 p-4 w-3/5 ">
+            <h2 class="text-primary-03 capitalize text-center ">Pick A Plan That Affordable For You. Grow Faster With Us.
             </h2>
-            <p class="items-center justify-center text-center text-secondary-01 capitalize font-light">Start With PrimeCRM And Build Your Own Custom Solution Or Choose The Suite, Our All‑In‑One Saas Package. A New And Better Way To Acquire, Engage And Support Customers.</p>
+            <p class="items-center justify-center text-center text-secondary-01 capitalize ">Start With PrimeCRM And Build Your Own Custom Solution Or Choose The Suite, Our All‑In‑One Saas Package. A New And Better Way To Acquire, Engage And Support Customers.</p>
           </div>
           
 
           <!--pricing packages-->
           
-          <div class="flex flex-1 flex-row gap-4 items-center">
-            <div class="pricing-background p-12"></div>
-            
-            <div class="flex flex-1 flex-col gap-4 p-10 w-1/2">
-              <div class="flex flex-1 flex-row gap-2 max-h-16">
-              <img src="images/pricing icon 1.png" alt="pricing icon 1" class="h-12 w-12">
-              <div class="text-lg text-primary-03 font-semibold pt-2">Starter</div>
+          <div class="flex flex-row gap-4 items-center ">
+            <div class="pricing-background p-12"></div>            
+            <div class="flex flex-col flex-start gap-4 w-1/2 p-8 ">
+              <div class="flex flex-row gap-2 ">
+                <img src="images/pricing icon 1.png" alt="pricing icon 1" class="h-12 w-12">
+                <h3 class="text-primary-03 font-thin pt-2 justify-center">Starter</h3>
               </div>
               
-
-              <div class="flex flex-1 flex-col p-6 gap-8 bg-white rounded-lg shadow-md shadow-gray-md">
-                <div class="text-primary-03 text-3xl font-bold">$45/mo</div>
-                <p class="text-start text-secondary-01 capitalize font-light">Includes <span class="font-bold">1,000</span> marketing contacts. Additional marketing contacts are sold in increments of <span class="font-bold">1,000</span> from</p>
-                
-                <ul class="items-start gap-12 capitalize text-base p-6 text-primary-03 text-md list-disc">
-                  <li>Outbound email and <span class="font-bold">in-product</span></li>
-                  <li>messaging</li>
-                  <li><span class="font-bold text-orange-400">Push messages</span> & notifications</li>
-                  <li>Custom bots</li>
-                  <li>Mobile Carousels</li>
-                  <li>Banner messages</li>
-                  <li><span class="font-bold">Multi-channel</span> campaigns</li>
-                  <li>A/B testing & control groups</li>
-                </ul>
-                <button class="bg-secondary-02 text-primary-03 px-6 py-4 rounded-lg w-72 hover:bg-primary-03 hover:text-white">Get Started</button>
+              <div class="flex flex-col p-6 gap-2 bg-white rounded-2xl shadow-md shadow-gray-md ">
+                <h2 class="text-primary-03 font-bold ">$45/mo</h2>
+                <p class="text-start text-secondary-01 capitalize ">Includes <span class="font-bold">1,000</span> marketing contacts.<br> Additional marketing contacts are sold in increments of <span class="font-bold">1,000</span> from</p>
+                  <div class="flex flex-row  gap-1">
+                    <img src="/images/pricing-check-green.svg">
+                    <p>Outbound email and <span class="font-bold">in-product</span></p>
+                  </div>
+                  <div class="flex flex-row  gap-1">
+                    <img src="/images/pricing-check-green.svg">
+                    <p>messaging</p>
+                  </div>
+                  <div class="flex flex-row  gap-1">
+                    <img src="/images/pricing-check-green.svg">
+                    <p><span class="font-bold text-orange-400">Push messages</span> & notifications</p>
+                  </div>
+                  <div class="flex flex-row  gap-1">
+                    <img src="/images/pricing-check-green.svg">
+                    <p>Custom bots</p>
+                  </div>
+                  <div class="flex flex-row  gap-1">
+                    <img src="/images/pricing-check-green.svg">
+                    <p>Mobile Carousels</p>
+                  </div>
+                  <div class="flex flex-row  gap-1">
+                    <img src="/images/pricing-check-green.svg">
+                    <p>Banner messages</p>
+                  </div>
+                  <div class="flex flex-row  gap-1">
+                    <img src="/images/pricing-check-grey.svg">
+                    <p><span class="font-bold">Multi-channel</span> campaigns</p>
+                  </div>
+                  <div class="flex flex-row  gap-1">
+                    <img src="/images/pricing-check-grey.svg">
+                    <p>A/B testing & control groups</p>
+                  </div>
+                <button class="bg-secondary-02 text-primary-03 px-6 py-4 rounded-lg w-full main-font hover:bg-primary-03 hover:text-white font-semibold">Get Started</button>
 
             </div>
-
             </div>
     
-            <div class="flex flex-1 flex-col gap-4 p-10 w-1/2">
-              <div class="flex flex-1 flex-row gap-2">
-              <img src="images/pricing icon 2.png" alt="pricing icon 2" class="h-12 w-12">
-              <div class="text-lg text-primary-03 font-semibold pt-2">Professional</div>
+            <div class="flex flex-col flex-start gap-4 w-1/2 p-8   shadow shadow-grey-100">
+              <div class="flex flex-row gap-2 ">
+                <img src="images/pricing icon 2.png" alt="pricing icon 2" class=" flex h-12 w-12 bg-secondary-01 rounded-full">
+                <h3 class="text-primary-03 font-thin pt-2">Professional</h3>
               </div>
               
-              <div class="flex flex-1 flex-col p-6 gap-8 bg-white rounded-lg shadow-md shadow-gray-md">
-              <div class="text-primary-03 text-3xl font-bold">$60/mo</div>
-                <p class="text-start text-secondary-01 capitalize font-light">Includes <span class="font-bold">2,000</span> marketing contacts. Additional marketing contacts are sold in increments of <span class="font-bold">5,000</span> from</p>
+              <div class="flex flex-1 flex-col p-6 gap-2 bg-white rounded-xl shadow-md shadow-gray-md ">
+              <h2 class="text-primary-03 font-bold ">$60/mo</h2>
+                <p class="text-start text-secondary-01 capitalize ">Includes <span class="font-bold">2,000</span> marketing contacts. <br>Additional marketing contacts are sold in increments of <span class="font-bold">5,000</span> from</p>
               
-              <ul class="items-start gap-12 capitalize text-base p-6 text-primary-03 text-md list-disc">
-                <li>Outbound email and <span class="font-bold">in-product</span></li>
-                <li>messaging</li>
-                <li><span class="font-bold text-orange-400">Push messages</span> & notifications</li>
-                <li>Custom bots</li>
-                <li>Mobile Carousels</li>
-                <li>Banner messages</li>
-                <li><span class="font-bold">Multi-channel</span> campaigns</li>
-                <li>A/B testing & control groups</li>
-                <li>Website traffic analytics</li>
-                <li>Campaign reporting</li>
-                <li><span class="font-bold">Custom reporting</span></li>
-                <li>Salesforce integration</li>
-              </ul>
-                <button class="bg-secondary-02 text-primary-03 px-6 py-4 rounded-lg w-72 hover:bg-primary-03 hover:text-white">Get Started</button>
+                <div class="flex flex-row  gap-1">
+                  <img src="/images/pricing-check-green.svg">
+                  <p>Outbound email and <span class="font-bold">in-product</span></p>
+                </div>
+                <div class="flex flex-row  gap-1">
+                  <img src="/images/pricing-check-green.svg">
+                  <p><span class="font-bold">Messaging / Integration</span></p>
+                </div>
+                <div class="flex flex-row  gap-1">
+                  <img src="/images/pricing-check-green.svg">
+                  <p><span class="font-bold text-orange-400">Push messages</span> & notifications</p>
+                </div>
+                <div class="flex flex-row  gap-1">
+                  <img src="/images/pricing-check-green.svg">
+                  <p>Custom bots</p>
+                </div>
+                <div class="flex flex-row  gap-1">
+                  <img src="/images/pricing-check-green.svg">
+                  <p>Mobile Carousels</p>
+                </div>
+                <div class="flex flex-row  gap-1">
+                  <img src="/images/pricing-check-green.svg">
+                  <p>Banner messages</p>
+                </div>
+                <div class="flex flex-row  gap-1">
+                  <img src="/images/pricing-check-green.svg">
+                  <p><span class="font-bold">Multi-channel</span> campaigns</p>
+                </div>
+                <div class="flex flex-row  gap-1">
+                  <img src="/images/pricing-check-green.svg">
+                  <p>A/B testing & control groups</p>
+                </div>
+                <div class="flex flex-row  gap-1">
+                  <img src="/images/pricing-check-green.svg">
+                  <p>Website traffic analysis</p>
+                </div>
+                <div class="flex flex-row  gap-1">
+                  <img src="/images/pricing-check-green.svg">
+                  <p>campaign reporting</p>
+                </div>
+                <div class="flex flex-row  gap-1">
+                  <img src="/images/pricing-check-green.svg">
+                  <p><span class="font-bold">custom reporting</span></p>
+                </div>
+                <div class="flex flex-row  gap-1">
+                  <img src="/images/pricing-check-green.svg">
+                  <p>salesforce integration</p>
+                </div>
+                <button class="bg-secondary-02 text-primary-03 px-6 py-4  h-24 rounded-lg w-full hover:bg-primary-03 hover:text-white main-font font-semibold">Get Started</button>
               </div>
               </div>
               
@@ -552,11 +645,11 @@
 
     <!--footer-->
     <section>
-      <div class="main-container bg-primary-03 pt-2 px-2 h-108 min-w-full  outline-green-500">
+      <div class="main-container bg-primary-03 pt-2 px-2 min-w-full ">
         <!--footer navbar-->
-        <nav class="container flex items-center py-2 mt-2 sm:mt-12 text-white">
+        <div class="container flex items-center py-2 mt-2 sm:mt-12 text-white ">
           <a href="#"> <img src="images/Logo-P.png" alt="logo" class="p-1"></a>
-          <div><a href="#" class="p-2 font-bold text-xl">PrimeCRM</a>
+          <div><a href="#" class="p-2 font-bold text-xl ">PrimeCRM</a>
           </div>
             <ul class="flex flex-1 justify-end text-end items-center gap-12 capitalize text-base">
               <li>
@@ -575,19 +668,19 @@
                 <a href="#"><img src="images/YouTube.png" alt="youtube icon" class="h-4 w-5"></a>
               </li>
             </ul>
-          </nav>
+          </div>
 
           
-        <div class="flex flex-1 flex-col px-20">
+        <div class="flex flex-1 flex-col px-20 ">
           <!--footer header-->
-          <div class="border-white mx-8">
-            <ul class="flex flex-1 flex-row text-start gap-8 py-4 mx-8 text-white text-lg font-semibold ">
+          <div class="border-white mx-8 ">
+            <ul class="flex flex-1 flex-row text-start gap-8 py-4 mx-8 text-white text-lg font-semibold  ">
               <li class="w-1/5">Useful Links</li>
               <li class="w-1/5 pl-1">Pages</li>
               <li class="w-1/5 pl-2">Contact Us</li>
               <li class="w-2/5">Our Latest News</li>
               <li class="text-end border border-secondary-03 rounded-full h-10 w-12 hover:bg-primary-01 hover:border-primary-01">
-                <a href="#"><img class="items-center justify-center py-4 pl-3" src="./images/bottom-to=top-arrow.png"></a>
+                <a href="#"><img class="items-center justify-center py-4 pl-3" src="./images/bottom-to-top-arrow.svg"></a>
               </li>
             </ul>
           </div>
@@ -651,7 +744,7 @@
             <!--image-->
             <div class="container w-2/5 px-8 relative">
               <img src="images/footer image.jpeg" alt="footer image" class="h-fit w-fit overflow-clip hover:scale-105 transition duration-200 cursor-pointer">
-              <a href="#"><button class="bg-white text-primary-03 p-4 px-6 items-center justify-center rounded-lg hover:bg-primary-02 absolute bottom-12 left-44 ">Read Now</button></a>
+              <a href="#"><button class="bg-white text-primary-03 p-4 px-6 items-center justify-center rounded-lg hover:bg-primary-02 absolute bottom-12 left-44 main-font">Read Now</button></a>
             </div>
           </div>
         </div>
